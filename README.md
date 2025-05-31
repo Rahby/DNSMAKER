@@ -24,10 +24,10 @@ cd telegram-vpn-bot ```
 - Python 3.7+
 ``` pip install pyTelegramBotAPI ```
 ### 3. Set up the bot
--In the Python file, replace the following variables:
-TOKEN = ''           # Your Telegram bot token (inside quotes)
-OWNER_ID = 123456789 # Your Telegram numeric user ID (as admin)
-SUPPORT_LINK = 'https://t.me/example'  # Telegram link for subscription support
+- In the Python file, replace the following variables:
+- TOKEN = ''           # Your Telegram bot token (inside quotes)
+- OWNER_ID = 123456789 # Your Telegram numeric user ID (as admin)
+- SUPPORT_LINK = 'https://t.me/example'  # Telegram link for subscription support
 ### 4. Run the bot
 ```python bot.py```
 ### Bot Commands 📚
