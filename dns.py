@@ -7,9 +7,9 @@ import time
 import os
 import threading
 
-TOKEN = '' #داخل کوتیشن توکن ربات رو میزاید
-OWNER_ID = 123456789 #اینجا ایدی عددی خودت یا کسی که میخوای ادمین باشه رو قرار میدی
-SUPPORT_LINK = 'https://t.me/ffelz'
+TOKEN = '' #داخل کوتیشن توکن ربات رو میزاید bot token
+OWNER_ID = 123456789 #اینجا ایدی عددی خودت یا کسی که میخوای ادمین باشه رو قرار میدی uid
+SUPPORT_LINK = 'https://t.me/example' #telegram id
 DATA_FILE = 'users.json'
 
 bot = telebot.TeleBot(TOKEN)
@@ -91,7 +91,7 @@ PersistentKeepalive = 25
 """
     return config.strip()
 
-# تولید کانفیگ OpenVPN
+# تولید کانفیگ OpenVPN - 
 def generate_openvpn_config():
     username = ''.join(random.choices('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=10))
     password = ''.join(random.choices('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=10))
